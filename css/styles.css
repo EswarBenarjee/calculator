@@ -1,0 +1,32 @@
+body {
+  background-color: #FFF7E0;
+}
+
+h1 {
+  color: #8E0505;
+  font-family: cursive;
+}
+
+.look {
+  background-color: #FFA400;
+  color: #0F00FF;
+  font-family: fantasy;
+  font-size: 1.5rem;
+  padding-top: 22px;
+  padding-bottom: 25px;
+  margin-bottom: 10px;
+  width: 500px;
+}
+
+button {
+  background-color: #A2D2FF;
+  border-color: #A2D2FF;
+  padding: 22px 50px 25px;
+  width: 50px;
+}
+.double {
+  padding: 22px 104px 25px;
+}
+.all {
+  padding: 22px 212px 25px;
+}

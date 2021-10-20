@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body> <center>
+    <h1>Calculator</h1>
+
+    <div class="look">
+      <span id="lookMe">0</span>
+    </div>
+    <div class="numbers">
+      <button type="button" onclick="update(1);">1</button>
+      <button type="button" onclick="update(2);">2</button>
+      <button type="button" onclick="update(3);">3</button>
+      <button type="button" onclick="update('+');">+</button>
+      <br>
+      <button type="button" onclick="update(4);">4</button>
+      <button type="button" onclick="update(5);">5</button>
+      <button type="button" onclick="update(6);">6</button>
+      <button type="button" onclick="update('-');">-</button>
+      <br>
+      <button type="button" onclick="update(7);">7</button>
+      <button type="button" onclick="update(8);">8</button>
+      <button type="button" onclick="update(9);">9</button>
+      <button type="button" onclick="update('*');">*</button>
+      <br>
+      <button class="double" type="button" onclick="update(0);"  >0</button>
+      <button class="double" type="button" onclick="update('/');">/</button>
+      <br>
+      <button type="button" onclick="answer();" class="all">=</button>
+      <br> <br>
+      <button type="button" onclick="clr()" class="all">Clear</button>
+    </div>
+  </center> </body>
+  <script src="index.js" charset="utf-8"></script>
+</html>
